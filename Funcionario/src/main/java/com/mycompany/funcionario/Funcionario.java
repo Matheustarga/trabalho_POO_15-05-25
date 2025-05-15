@@ -29,14 +29,13 @@ public class Funcionario {
                         lt.nextLine();
                         String func = lt.nextLine();
                         
-                           /* pessoa[i].setNome(func);*/
+                           
                     System.out.println("Informe o Cargo: ");
                         String cargo = lt.nextLine();
-                           /* pessoa[i].setCargo(cargo);*/
+                           
                     System.out.println("Informe o salario  em R$: ");
                         double dinheiro = lt.nextDouble();
-                        /*pessoa[i].setSalario(dinheiro);
-                        pessoa[i].setAtivo(true);*/
+
                         if(quantidade < peao.length){
                             peao[quantidade] = new trabalhador(func,cargo,dinheiro,true);
                             quantidade++;
@@ -46,9 +45,7 @@ public class Funcionario {
                         }
                     
                     
-                }/*else{
-                    System.out.println("Fracasso!");
-                }*/
+                }
                 
                 if(escolha_menu == 2){
                     for(int c = 0; c < quantidade;c++ ){

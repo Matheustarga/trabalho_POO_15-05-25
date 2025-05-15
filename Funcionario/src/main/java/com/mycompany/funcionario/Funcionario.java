@@ -42,7 +42,7 @@ public class Funcionario {
                             quantidade++;
                             System.out.println("Sucesso!");
                         }else{
-                            System.out.println("Fracasso!");
+                            System.out.println("Não foi possivel realizar o cadastro, a lista de trabalhadores está cheia!");
                         }
                     
                     
